@@ -63,7 +63,7 @@ The aim is to guess the country before it is fully spelled!
 """)
 
 # Initialize Session State
-if "round_num" not in st.state:
+if "round_num" not in st.session_state::
     st.session_state.round_num = 1
 if "used_countries" not in st.session_state:
     st.session_state.used_countries = []
